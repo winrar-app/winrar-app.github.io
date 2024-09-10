@@ -1,0 +1,70 @@
+
+body
+{
+    margin: 0px;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.containerMainCls
+{
+    margin: auto;
+    width: 800px;
+    text-align: center;
+}
+
+.leftColCls
+{
+    float: left;
+    width: 33%;
+    padding: 0px;
+    text-align: center;
+}
+
+.contentColCls
+{
+    float: left;
+    width: 33%;
+    padding: 0px;
+    text-align: center;
+}
+
+.rightColCls
+{    
+    float: right;
+    width: 32%;
+    padding: 0px;
+}  
+
+.clrCls
+{
+    clear: both;
+}
+
+.leftContentCls
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.oldOfferCls
+{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+    
+.oldOfferCutImageCls
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+}
+
+.oldpriceCutCls
+{
+    border: 0;
+}

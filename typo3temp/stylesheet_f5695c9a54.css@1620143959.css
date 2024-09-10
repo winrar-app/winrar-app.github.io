@@ -1,0 +1,20 @@
+
+.leftColumnTwoCls
+{   
+    width: 49%;
+    float: left;
+    clear: left;
+    padding-right: 2px;
+}
+
+.rightColumnTwoCls
+{
+    width: 49%;
+    float: right;
+    clear: right;
+    padding-left: 2px;
+}
+.clrTwoCls
+{
+    clear: both;
+}
