@@ -1,0 +1,36 @@
+//window.onload = PreLoadStyle();
+$(document).ready(function() {
+    PreLoadStyle();
+});
+
+function PreLoadStyle()
+{
+    document.getElementById('divtodisplay1').style.display = "none";
+    document.getElementById('pm1').style.backgroundImage = "url('fileadmin/images/plus_b.png')";
+}
+
+function DisplayDiv(number)
+{
+    for (i = 1; i <= 1; i++)
+    {
+        if (i != number)
+        {
+            document.getElementById('divtodisplay' + i).style.display = "none";
+            document.getElementById('pm' + i).style.backgroundImage = "url('fileadmin/images/plus_b.png')";
+        }
+        else
+        {
+            displayMode = document.getElementById('divtodisplay' + i).style.display;
+            if (displayMode == 'block')
+            {
+                document.getElementById('divtodisplay' + i).style.display = "none";
+                document.getElementById('pm' + i).style.backgroundImage = "url('fileadmin/images/plus_b.png')";
+            }
+            else
+            {
+                document.getElementById('divtodisplay' + i).style.display = "block";
+                document.getElementById('pm' + i).style.backgroundImage = "url('fileadmin/images/minus_b.png')";
+            }
+        }
+    }
+}

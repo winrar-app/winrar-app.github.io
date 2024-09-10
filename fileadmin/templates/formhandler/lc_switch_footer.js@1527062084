@@ -1,0 +1,39 @@
+$(document).ready(function(e) {
+  
+  //getBrowserCookieStatus("c33");
+  
+  $('input').lc_switch();
+
+  // triggered each time a field changes status
+  $('body').delegate('.lcs_check', 'lcs-statuschange', function() {
+    var status = ($(this).is(':checked')) ? 'checked' : 'unchecked';
+    //console.log('field changed status: '+ status );
+    if(status == 'unchecked') {
+      //delete_cookie(disableStr);
+    }
+  });
+  
+  
+  // triggered each time a field is checked
+  $('body').delegate('.lcs_check', 'lcs-on', function() {
+    //console.log('field is checked');
+        $('#check').val('c_is_on');
+        $('#toggle_on').css({'display' : 'block'});
+        $('#toggle_off').css({'display' : 'none'});
+        if (isLoaded == 1)
+        {
+         delete_cookie(disableStr);
+         setDisclaimerCookie("1");
+        }
+  });
+  
+  
+  // triggered each time a is unchecked
+  $('body').delegate('.lcs_check', 'lcs-off', function() {
+    //console.log('field is unchecked');
+        $('#check').val('c_is_off');
+        $('#toggle_on').css({'display' : 'none'});
+        $('#toggle_off').css({'display' : 'block'});
+        gaOptoutSwitchToOff()    
+  });
+});

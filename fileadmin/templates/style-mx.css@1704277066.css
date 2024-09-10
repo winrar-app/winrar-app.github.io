@@ -1,0 +1,15 @@
+div#ckRules{display:block;position:fixed;bottom:0;z-index:1;}.alert{color:#000;border:1px solid;}
+div.search{padding-top:30px;}
+div#header{height:150px;}
+div#content{width:100%;}
+div#main{float:none;width:auto;padding-top:15px;}
+div#panelright{float:none;margin-left:auto;margin-right:auto;}
+div#footer ul{padding:0;}
+div#footer li{float:none;width:auto;}
+div#navbar{width:150px;margin:0 auto;}
+div#topPlacedInstaller td,div#topPlacedInstaller table,div#installerlisting td,div#installerlisting table{padding:8px;}
+div#topPlacedInstaller th{width:auto;}
+div#installerlisting th{width:auto;}
+div#installerlisting td{width:auto;}
+table#searchInstallerFormTable{width:auto;}
+table.wfqbe_table_results{width:auto;}.layout_form,.cr_form,.cr_font{width:100%;}.cr_body,.cr_page,.cr_font,.formbox{width:100%;}#text1438203{width:100%;}#text693066,#select_693163,#select_693165,#select_693164,#text693118,#text693138,#text693114{width:100%;}.rightColumnTwoCls{width:auto;float:none;}.leftColumnTwoCls{width:auto;float:none;}
