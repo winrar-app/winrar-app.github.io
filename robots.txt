@@ -1,0 +1,7 @@
+User-agent: *
+
+User-agent: Yandex
+
+host: https://winrar-app.github.io
+
+Sitemap: https://winrar-app.github.io/sitemap.xml
